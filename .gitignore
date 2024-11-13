@@ -1,0 +1,6 @@
+# Ignore unnecessary files
+__pycache__/
+*.pyc
+.DS_Store
+datasets/raw/*   # Ignore raw datasets if they're large or sensitive
+results/model_outputs/
